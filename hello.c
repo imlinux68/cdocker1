@@ -4,7 +4,7 @@
 
 int main() {
 
-    printf("Hello world this is C in docker");
+    printf("Hello world this is C in docker\n");
     return 0;
 
 

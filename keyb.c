@@ -1,10 +1,14 @@
-/* Hello world programm */
+/* Keyboard input programm */
 
 #include <stdio.h>
 
 int main() {
 
-    printf("Hello world this is C in docker\n");
+    char name[32];
+    
+    printf("What is your name? \n");
+    scanf("%s", &name);
+
     return 0;
 
 
